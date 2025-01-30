@@ -1,0 +1,27 @@
+body{
+    font-family: arial;
+    text-align: center;
+}
+.game-container{
+    background-color: lightgray;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+#character{
+    width: 50px;
+    height: 50px;
+    background-image: url("https://png.pngtree.com/png-clipart/20220110/original/pngtree-creative-cartoon-robot-png-png-image_7051902.png");
+    background-size: cover;
+    position: absolute;
+    top: 25px;
+    left: 175px; /* positioning in the middle */
+}
+
+button{
+    padding: 20px;
+    cursor: pointer;
+}

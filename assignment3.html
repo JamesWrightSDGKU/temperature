@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/assignment3.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <main>
+        <h1>Temperature Converter</h1>
+        <form>
+            <fieldset>
+                <legend>Input temperature and select scale to be converted <strong>from</strong>:</legend>
+                <div>
+                    <label for="inputTemperature">Temperature:</label>
+                    <input type="number" id="inputTemperature" name="inputTemperature">
+                </div>
+                <div>
+                    <input type="radio" id="farenheit" name="scale" value="Farenheit"><label for="farenheit">Farenheit</label>
+                    <input type="radio" id="celsius" name="scale" value="Celsius"><label for="celsius">Celsius</label>
+                </div>
+                <div>
+                    <input type="button" onclick="convertTemp()" value="Convert">
+                </div>
+                <div id="results">
+                </div>
+        </form>
+
+
+    </main>
+    <script src="./scripts/assignment3.js"></script>
+</body>
+</html>

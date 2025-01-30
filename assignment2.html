@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./scripts/assignment2.js"></script>
     <title>Temperature</title>
 </head>
 <body>
     <main>
         <h1>Temperature Conversion</h1>
-        <h2>What temperature would you like to convert from?</h2>
-        <p>(buttons open an alert window)</p>
-        <button title="Convert from Celcius" onclick="convertCelsius()">Celcius</button>
-        <button title="Convert from Farenheit" onclick="convertFarenheit()">Farenheit</button>
-        <button title="Convert from Kelvin" onclick="convertKelvin()">Kelvin</button>       
+        <p>What temperature would you like to convert from?</p>
+        <div>
+            <button title="Convert from Celcius" onclick="convertCelsius()">Celcius</button>
+            <button title="Convert from Farenheit" onclick="convertFarenheit()">Farenheit</button>
+            <button title="Convert from Kelvin" onclick="convertKelvin()">Kelvin</button> 
+        </div>        
+        <div id="result"></div>      
     </main>
+    <script src="./scripts/assignment2.js"></script>
 </body>
 </html>
