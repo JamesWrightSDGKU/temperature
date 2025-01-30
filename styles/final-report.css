@@ -1,0 +1,33 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 20px;
+}
+table{
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+th{
+    border-bottom: 2px solid black;
+}
+th + th {
+    border-left: 1px solid black;
+}
+td{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+td + td {
+    border-left: 1px dotted black;
+}

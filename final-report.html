@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/final-report.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Convert a Range of Temperatures</h1>
+        <form>
+            <fieldset>
+                <legend>Choose the low end and the high end of the range you would like to convert within.</legend>
+                <div>
+                    <label for="lowTemp">Low Temperature:</label>
+                    <input type="number" id="lowTemp" name="lowTemp">
+                </div>
+                <div>
+                    <label for="highTemp">High Temperature:</label>
+                    <input type="number" id="highTemp" name="lowTemp">
+                </div>
+                <div>
+                    <input type="radio" id="farenheit" name="scale" value="Farenheit"><label for="farenheit">Farenheit</label>
+                    <input type="radio" id="celsius" name="scale" value="Celsius"><label for="celsius">Celsius</label>
+                </div>
+                <div>
+                    <input type="button" onclick="convertTemperatureRange()" value="Convert">
+                </div>
+            </fieldset>
+            <div id="results"><h2>Here are your results:</h2>
+
+            </div>
+        </form>
+    </main>
+    <script src="./scripts/final-report.js"></script>
+</body>
+</html>
